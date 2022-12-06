@@ -1,0 +1,97 @@
+.introducao{
+  text-align: center;
+  margin-top: 6.5em;
+}
+.introducao > h1{
+ background: rgb(179,238,255);
+background: linear-gradient(90deg, rgba(179,238,255,1) 0%, rgba(184,250,165,1) 100%);  
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 40px;
+}
+.introducao > p{
+  color: var(--cor-fundo);
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-top: -22px;
+
+}
+.container{
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+.molde{
+  margin: 1.1em;
+  margin-top: 1.1em;
+  border-color: var(--cor-fundo);
+  background-color: var(--cor-fundo3);
+  border-width: 1px;
+  border-radius: 7px;
+  border-style: solid;
+  width: 22vw;
+  height: 70%;
+}
+.molde-color1{
+  border-color: var(--cor-destaque);
+}
+
+.paragraph-semantic{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+.text-h3{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+  text-align: left;
+  color: white;  
+}
+
+.icones{
+  margin-left: 3em;
+  margin-top: -.7em;
+}
+.circulo{
+  margin-bottom: 2.5em;
+  
+}
+.circle{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  
+  margin-top: 1.2em;
+  margin-left: 1.5em;
+  
+}
+
+.circle-green{
+  background: var(--cor-green);
+}
+.circle-red{
+  background: var(--cor-red);
+}
+.circle-yellow{
+  background: var(--cor-yellow);
+}
+.text-green{
+  color: var(--cor-green);
+}
+.text-red{
+   color: var(--cor-red);
+}
+.text-yellow{
+   color: var(--cor-yellow);
+}
+.text-solid{
+  margin-top: -22.1em;
+  margin-left: 9.1em;
+  line-height: 1.8em;
+  font-size: 16px;
+  color: white;
+  
+}
