@@ -3,13 +3,6 @@
   margin-top: 6.5em;
 }
 .introducao > h1{
-  background: #4161AD;
-background: linear-gradient(to right, #4764a9 0%, #4ccde1 100%); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-
   font-size: 40px;
 }
 .introducao > p{
@@ -33,13 +26,23 @@ background: linear-gradient(to right, #4764a9 0%, #4ccde1 100%);
   border-width: 1px;
   border-radius: 7px;
   border-style: solid;
-  width: 22vw;
-  height: 70%;
+  width: 35%;
 
   -webkit-box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
 -moz-box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
 box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
 }
 .molde-color1{
-  border-color: var(--verde-agua);
+  border-color: var(--azul-borda);
+}
+.molde > h4{
+  color: var(--cor-fundo);
+  text-align: center;
+  
+}
+.molde{
+  text-align: center;
+}
+#digite{
+  margin-bottom: 1.5em;
 }

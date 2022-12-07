@@ -11,7 +11,6 @@
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link href="css/dropmenu.css" rel="stylesheet" type="text/css" />
   <link href="css/base.css" rel="stylesheet" type="text/css" />
-  <link href="css/game.css" rel="stylesheet" type="text/css" />
 
   <!-- Imports dos Fav.Icons -->
   <link rel="apple-touch-icon" sizes="57x57" href="fav.icon/apple-icon-57x57.png">
@@ -64,33 +63,26 @@ background: linear-gradient(to right, #4161AD 0%, #45A9B8 100%); -webkit-backgro
 
   <!-- Essa é a parte do TEXTO INICIAL -->
   <div class="introducao">
-    <h1 class="gradient-claro"><b> Bem-vindo ao Sócrates! </b></h1>
+    <h1><b> Bem-vindo ao Sócrates! </b></h1>
     <p> sinta-se à vontade em nosso "mini-game" </p>
   </div>
-
+  
   <div class="container">
     <div class="molde molde-color1">
-      <h3 class="text1">O PC escolheu um número de 1 a 30, </h3>
-      <h3 class="text1 text-resize1">tente <b class="gradient-claro">advinhar</b> qual foi escolhido </h3>
-      <p class="opacidade" id="m1"> *Digite um número para começar </p>
-
-      <input style="width: 44px;" type="text" placeholder="1" id="resposta">
-      <button onclick="play()" id="my_btn">Tentar</button>
-      
-      <p class="opacidade" id="m2"></p>
-      <p class="opacidade" id="m3"></p>
+      <h4> Pense num número de 3 a 9 </h4>
+      <input style="width: 44px;" type="text" id="digite" placeholder="Digite aqui" oninput="this.value = this.value.replace(/[^3-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" >
+      <input type = "button" onclick="ok();" value = "OK" id = "OK"/>
     </div>
   </div>
 
   <!-- Agradecimentos -->
   <div id="fim">
-    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <p id="agradecimentos"><b> Você chegou ao fim. Obrigado por ver até aqui.</b></p>
   </div>
 
   <!-- Script anexado -->
   <script src="j.script/script.js"></script>
-
+  
 </body>
-
 </html>

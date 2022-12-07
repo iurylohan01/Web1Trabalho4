@@ -7,7 +7,7 @@
   --cor-primaria: #14161b;
   --cor-primaria2: #1b1d25ff;
   --cor-round: #666d8aff;
-  --verde-agua: #45A9B8;
+  --azul-borda: #5397c1;
   --roxo: #4161AD;
   --amarelo: #F2B84B;
   --laranja: #F2784B;
@@ -16,6 +16,12 @@
 body{
   background: var(--cor-fundo3);
   font-family: Inter,Helvetica,Arial,sans-serif;
+}
+.gradient-claro{
+  background: #4161AD;
+background: linear-gradient(to right, #719bfe 0%, #5de9fe 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 #agradecimentos{
   color: var(--cor-round);
